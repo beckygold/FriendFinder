@@ -1,4 +1,7 @@
 // GET route to /api/friends to display JSON of all friends
+app.get("/api/friends", function(req, res) {
+    return res.json(friends);
+});
 
 // POST route to /api/friends to handle incoming survery results and compatibility logic
 
