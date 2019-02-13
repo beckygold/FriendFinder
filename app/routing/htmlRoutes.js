@@ -5,7 +5,7 @@ module.exports = function (app) {
 
     // GET route to /survery to display survery page
     app.get("/survey", function (req, res) {
-        res.sendFile(path.join(__dirname, "survey.html"));
+        res.sendFile(path.join(__dirname, "../public/survey.html"));
     });
 
     // Default route to home page
